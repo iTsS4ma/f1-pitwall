@@ -1,19 +1,8 @@
 {% extends "base.html" %}
-{% block titulo %}Carreras{% endblock %}
+{% block titulo %}Calendario{% endblock %}
 {% block contenido %}
-<h1>Carreras</h1>
-<p class="sub">Solo se registran resultados de carreras que ya se corrieron (RN-005).</p>
-
-<section class="tarjeta">
-  <h2>Nueva carrera</h2>
-  <form method="post" class="fila">
-    <div><label for="ronda">Ronda</label><input id="ronda" name="ronda" type="number" min="1" value="{{ form.ronda or siguiente }}" required></div>
-    <div><label for="nombre">Gran Premio</label><input id="nombre" name="nombre" value="{{ form.nombre }}" placeholder="GP de México" required></div>
-    <div><label for="circuito">Circuito</label><input id="circuito" name="circuito" value="{{ form.circuito }}" required></div>
-    <div><label for="fecha">Fecha</label><input id="fecha" name="fecha" type="date" value="{{ form.fecha }}" required></div>
-    <div><button type="submit">Agregar</button></div>
-  </form>
-</section>
+<h1>Calendario 2026</h1>
+<p class="sub">Los resultados se registran después de que se corre cada evento.</p>
 
 <section class="tarjeta tabla-scroll">
   <table>
@@ -22,9 +11,9 @@
     {% for c in carreras %}
       <tr>
         <td>R{{ c.ronda }}</td>
-        <td><a href="{{ url_for('pitwall.carrera', cid=c.id) }}"><strong>{{ c.nombre }}</strong></a></td>
+        <td><a href="{{ url_for('pitwall.carrera', cid=c.id) }}"><strong>{{ c.nombre }}</strong></a>{% if c.sprint %} <span class="etiqueta">Sprint</span>{% endif %}</td>
         <td class="ocultar-movil">{{ c.circuito }}</td>
-        <td>{{ c.fecha }}</td>
+        <td style="white-space:nowrap">{{ c.fecha }}</td>
         <td>
           {% if c.ganador %}{{ c.ganador }}
           {% elif c.fecha > hoy %}<span class="etiqueta aviso">Próxima</span>
@@ -39,9 +28,15 @@
         </td>
       </tr>
     {% else %}
-      <tr><td colspan="6" class="vacio">Todavía no hay carreras.</td></tr>
+      <tr><td colspan="6" class="vacio">Todavía no hay eventos.</td></tr>
     {% endfor %}
     </tbody>
   </table>
+</section>
+
+<section class="tarjeta">
+  <h2>Nuevo evento</h2>
+  {% set campos = form %}
+  {% include "_carrera_campos.html" %}
 </section>
 {% endblock %}

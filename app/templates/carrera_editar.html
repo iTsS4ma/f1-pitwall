@@ -1,18 +1,12 @@
 {% extends "base.html" %}
-{% block titulo %}Editar carrera{% endblock %}
+{% block titulo %}Editar evento{% endblock %}
 {% block contenido %}
-<h1>Editar carrera</h1>
+<h1>Editar evento</h1>
 <p class="sub">R{{ car.ronda }} · {{ car.nombre }}</p>
 <section class="tarjeta">
-  <form method="post" class="fila">
-    <div><label for="ronda">Ronda</label><input id="ronda" name="ronda" type="number" min="1" value="{{ form.ronda }}" required></div>
-    <div><label for="nombre">Gran Premio</label><input id="nombre" name="nombre" value="{{ form.nombre }}" required></div>
-    <div><label for="circuito">Circuito</label><input id="circuito" name="circuito" value="{{ form.circuito }}" required></div>
-    <div><label for="fecha">Fecha</label><input id="fecha" name="fecha" type="date" value="{{ form.fecha }}" required></div>
-    <div class="acciones" style="justify-content:flex-start">
-      <button type="submit">Guardar</button>
-      <a class="boton secundario" href="{{ url_for('pitwall.carrera', cid=car.id) }}">Cancelar</a>
-    </div>
-  </form>
+  {% set campos = form %}
+  {% set boton = 'Guardar' %}
+  {% set cancelar = url_for('pitwall.carrera', cid=car.id) %}
+  {% include "_carrera_campos.html" %}
 </section>
 {% endblock %}

@@ -2,7 +2,7 @@
 {% block titulo %}Escuderías{% endblock %}
 {% block contenido %}
 <h1>Escuderías</h1>
-<p class="sub">Cada escudería tiene como máximo 2 pilotos (RN-002). No se elimina una escudería con pilotos (RN-006).</p>
+<p class="sub">Cada escudería corre con 2 autos y puede usar hasta 4 pilotos distintos en la temporada.</p>
 
 <section class="tarjeta">
   <h2>Nueva escudería</h2>
@@ -15,13 +15,14 @@
 
 <section class="tarjeta tabla-scroll">
   <table>
-    <thead><tr><th>Escudería</th><th>País</th><th class="num">Pilotos</th><th></th></tr></thead>
+    <thead><tr><th>Escudería</th><th class="ocultar-movil">País</th><th>Pilotos activos</th><th class="num">Usados en la temporada</th><th></th></tr></thead>
     <tbody>
     {% for e in escuderias %}
       <tr>
         <td><strong>{{ e.nombre }}</strong></td>
-        <td>{{ e.pais }}</td>
-        <td class="num">{{ e.n }} / 2</td>
+        <td class="ocultar-movil">{{ e.pais }}</td>
+        <td>{{ e.titulares or '—' }}</td>
+        <td class="num">{{ e.usados }} / 4</td>
         <td>
           <div class="acciones">
             <a class="boton secundario chico" href="{{ url_for('pitwall.editar_escuderia', eid=e.id) }}">Editar</a>
@@ -30,7 +31,7 @@
         </td>
       </tr>
     {% else %}
-      <tr><td colspan="4" class="vacio">Todavía no hay escuderías.</td></tr>
+      <tr><td colspan="5" class="vacio">Todavía no hay escuderías.</td></tr>
     {% endfor %}
     </tbody>
   </table>

@@ -1,0 +1,17 @@
+<form method="post" class="fila">
+  <div><label for="ronda">Ronda</label><input id="ronda" name="ronda" type="number" min="1" value="{{ campos.ronda or siguiente }}" required></div>
+  <div><label for="nombre">Gran Premio</label><input id="nombre" name="nombre" value="{{ campos.nombre }}" placeholder="GP de la Ciudad de México" required></div>
+  <div><label for="circuito">Circuito</label><input id="circuito" name="circuito" value="{{ campos.circuito }}" required></div>
+  <div><label for="pais">País</label><input id="pais" name="pais" value="{{ campos.pais }}" required></div>
+  <div><label for="fecha">Fecha de la carrera</label><input id="fecha" name="fecha" type="date" value="{{ campos.fecha }}" required></div>
+  <div>
+    <label for="sprint">Formato</label>
+    <label style="display:flex;gap:8px;align-items:center;font-weight:400;color:inherit;margin:10px 0 0">
+      <input id="sprint" type="checkbox" name="sprint" value="1" {{ 'checked' if campos.sprint|string in ('1', 'True') }}> Fin de semana con sprint
+    </label>
+  </div>
+  <div class="acciones" style="justify-content:flex-start">
+    <button type="submit">{{ boton or 'Agregar' }}</button>
+    {% if cancelar %}<a class="boton secundario" href="{{ cancelar }}">Cancelar</a>{% endif %}
+  </div>
+</form>

@@ -1,0 +1,4499 @@
+{
+ "fuente": "Jolpica F1 API (api.jolpi.ca/ergast/f1/2026), consultada el 2026-11-21; resultados hasta la ronda 20",
+ "escuderias": [
+  {
+   "id": "alpine",
+   "nombre": "Alpine",
+   "pais": "Francia"
+  },
+  {
+   "id": "aston_martin",
+   "nombre": "Aston Martin",
+   "pais": "Reino Unido"
+  },
+  {
+   "id": "audi",
+   "nombre": "Audi",
+   "pais": "Alemania"
+  },
+  {
+   "id": "cadillac",
+   "nombre": "Cadillac",
+   "pais": "Estados Unidos"
+  },
+  {
+   "id": "ferrari",
+   "nombre": "Ferrari",
+   "pais": "Italia"
+  },
+  {
+   "id": "haas",
+   "nombre": "Haas",
+   "pais": "Estados Unidos"
+  },
+  {
+   "id": "mclaren",
+   "nombre": "McLaren",
+   "pais": "Reino Unido"
+  },
+  {
+   "id": "mercedes",
+   "nombre": "Mercedes",
+   "pais": "Alemania"
+  },
+  {
+   "id": "rb",
+   "nombre": "Racing Bulls",
+   "pais": "Italia"
+  },
+  {
+   "id": "red_bull",
+   "nombre": "Red Bull Racing",
+   "pais": "Austria"
+  },
+  {
+   "id": "williams",
+   "nombre": "Williams",
+   "pais": "Reino Unido"
+  }
+ ],
+ "pilotos": [
+  {
+   "id": "albon",
+   "nombre": "Alexander Albon",
+   "numero": 23,
+   "nacionalidad": "Tailandia",
+   "escuderia": "williams"
+  },
+  {
+   "id": "alonso",
+   "nombre": "Fernando Alonso",
+   "numero": 14,
+   "nacionalidad": "España",
+   "escuderia": "aston_martin"
+  },
+  {
+   "id": "antonelli",
+   "nombre": "Andrea Kimi Antonelli",
+   "numero": 12,
+   "nacionalidad": "Italia",
+   "escuderia": "mercedes"
+  },
+  {
+   "id": "arvid_lindblad",
+   "nombre": "Arvid Lindblad",
+   "numero": 41,
+   "nacionalidad": "Reino Unido",
+   "escuderia": "rb"
+  },
+  {
+   "id": "bearman",
+   "nombre": "Oliver Bearman",
+   "numero": 87,
+   "nacionalidad": "Reino Unido",
+   "escuderia": "haas"
+  },
+  {
+   "id": "bortoleto",
+   "nombre": "Gabriel Bortoleto",
+   "numero": 5,
+   "nacionalidad": "Brasil",
+   "escuderia": "audi"
+  },
+  {
+   "id": "bottas",
+   "nombre": "Valtteri Bottas",
+   "numero": 77,
+   "nacionalidad": "Finlandia",
+   "escuderia": "cadillac"
+  },
+  {
+   "id": "colapinto",
+   "nombre": "Franco Colapinto",
+   "numero": 43,
+   "nacionalidad": "Argentina",
+   "escuderia": "alpine"
+  },
+  {
+   "id": "gasly",
+   "nombre": "Pierre Gasly",
+   "numero": 10,
+   "nacionalidad": "Francia",
+   "escuderia": "alpine"
+  },
+  {
+   "id": "hadjar",
+   "nombre": "Isack Hadjar",
+   "numero": 6,
+   "nacionalidad": "Francia",
+   "escuderia": "red_bull"
+  },
+  {
+   "id": "hamilton",
+   "nombre": "Lewis Hamilton",
+   "numero": 44,
+   "nacionalidad": "Reino Unido",
+   "escuderia": "ferrari"
+  },
+  {
+   "id": "hulkenberg",
+   "nombre": "Nico Hülkenberg",
+   "numero": 27,
+   "nacionalidad": "Alemania",
+   "escuderia": "audi"
+  },
+  {
+   "id": "lawson",
+   "nombre": "Liam Lawson",
+   "numero": 30,
+   "nacionalidad": "Nueva Zelanda",
+   "escuderia": "rb"
+  },
+  {
+   "id": "leclerc",
+   "nombre": "Charles Leclerc",
+   "numero": 16,
+   "nacionalidad": "Mónaco",
+   "escuderia": "ferrari"
+  },
+  {
+   "id": "max_verstappen",
+   "nombre": "Max Verstappen",
+   "numero": 3,
+   "nacionalidad": "Países Bajos",
+   "escuderia": "red_bull"
+  },
+  {
+   "id": "norris",
+   "nombre": "Lando Norris",
+   "numero": 1,
+   "nacionalidad": "Reino Unido",
+   "escuderia": "mclaren"
+  },
+  {
+   "id": "ocon",
+   "nombre": "Esteban Ocon",
+   "numero": 31,
+   "nacionalidad": "Francia",
+   "escuderia": "haas"
+  },
+  {
+   "id": "perez",
+   "nombre": "Sergio Pérez",
+   "numero": 11,
+   "nacionalidad": "México",
+   "escuderia": "cadillac"
+  },
+  {
+   "id": "piastri",
+   "nombre": "Oscar Piastri",
+   "numero": 81,
+   "nacionalidad": "Australia",
+   "escuderia": "mclaren"
+  },
+  {
+   "id": "rafael_camara",
+   "nombre": "Rafael Camara",
+   "numero": 51,
+   "nacionalidad": "Brasil",
+   "escuderia": "haas"
+  },
+  {
+   "id": "russell",
+   "nombre": "George Russell",
+   "numero": 63,
+   "nacionalidad": "Reino Unido",
+   "escuderia": "mercedes"
+  },
+  {
+   "id": "ryo_hirakawa",
+   "nombre": "Ryo Hirakawa",
+   "numero": 50,
+   "nacionalidad": "Japón",
+   "escuderia": "haas"
+  },
+  {
+   "id": "sainz",
+   "nombre": "Carlos Sainz",
+   "numero": 55,
+   "nacionalidad": "España",
+   "escuderia": "williams"
+  },
+  {
+   "id": "stroll",
+   "nombre": "Lance Stroll",
+   "numero": 18,
+   "nacionalidad": "Canadá",
+   "escuderia": "aston_martin"
+  },
+  {
+   "id": "tsunoda",
+   "nombre": "Yuki Tsunoda",
+   "numero": 22,
+   "nacionalidad": "Japón",
+   "escuderia": "rb"
+  }
+ ],
+ "carreras": [
+  {
+   "ronda": 1,
+   "nombre": "GP de Australia",
+   "circuito": "Albert Park Grand Prix Circuit",
+   "pais": "Australia",
+   "fecha": "2026-03-08",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 2,
+   "nombre": "GP de China",
+   "circuito": "Shanghai International Circuit",
+   "pais": "China",
+   "fecha": "2026-03-15",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 3,
+   "nombre": "GP de Japón",
+   "circuito": "Suzuka Circuit",
+   "pais": "Japón",
+   "fecha": "2026-03-29",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 4,
+   "nombre": "GP de Miami",
+   "circuito": "Miami International Autodrome",
+   "pais": "Estados Unidos",
+   "fecha": "2026-05-03",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Descalificado",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 5,
+   "nombre": "GP de Canadá",
+   "circuito": "Circuit Gilles Villeneuve",
+   "pais": "Canadá",
+   "fecha": "2026-05-24",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 21,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 6,
+   "nombre": "GP de Mónaco",
+   "circuito": "Circuit de Monaco",
+   "pais": "Mónaco",
+   "fecha": "2026-06-07",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 7,
+   "nombre": "GP de Barcelona",
+   "circuito": "Circuit de Barcelona-Catalunya",
+   "pais": "España",
+   "fecha": "2026-06-14",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 8,
+   "nombre": "GP de Austria",
+   "circuito": "Red Bull Ring",
+   "pais": "Austria",
+   "fecha": "2026-06-28",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 9,
+   "nombre": "GP de Gran Bretaña",
+   "circuito": "Silverstone Circuit",
+   "pais": "Reino Unido",
+   "fecha": "2026-07-05",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 21,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 22,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 10,
+   "nombre": "GP de Bélgica",
+   "circuito": "Circuit de Spa-Francorchamps",
+   "pais": "Bélgica",
+   "fecha": "2026-07-19",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 11,
+   "nombre": "GP de Hungría",
+   "circuito": "Hungaroring",
+   "pais": "Hungría",
+   "fecha": "2026-07-26",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 12,
+   "nombre": "GP de los Países Bajos",
+   "circuito": "Circuit Park Zandvoort",
+   "pais": "Países Bajos",
+   "fecha": "2026-08-23",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "red_bull",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "tsunoda",
+     "escuderia": "rb",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "red_bull",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "tsunoda",
+     "escuderia": "rb",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 21,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 13,
+   "nombre": "GP de Italia",
+   "circuito": "Autodromo Nazionale di Monza",
+   "pais": "Italia",
+   "fecha": "2026-09-06",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "tsunoda",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "red_bull",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 14,
+   "nombre": "GP de España",
+   "circuito": "Madring",
+   "pais": "España",
+   "fecha": "2026-09-13",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "tsunoda",
+     "escuderia": "rb",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 15,
+   "nombre": "GP de Azerbaiyán",
+   "circuito": "Baku City Circuit",
+   "pais": "Azerbaiyán",
+   "fecha": "2026-09-26",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 16,
+   "nombre": "GP de Baréin (en Malasia)",
+   "circuito": "Sepang International Circuit",
+   "pais": "Malasia",
+   "fecha": "2026-10-04",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 17,
+   "nombre": "GP de Singapur",
+   "circuito": "Marina Bay Street Circuit",
+   "pais": "Singapur",
+   "fecha": "2026-10-11",
+   "sprint": true,
+   "resultados": [
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": [
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 7.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 5.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 3.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ]
+  },
+  {
+   "ronda": 18,
+   "nombre": "GP de Estados Unidos",
+   "circuito": "Circuit of the Americas",
+   "pais": "Estados Unidos",
+   "fecha": "2026-10-25",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "ocon",
+     "escuderia": "haas",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 19,
+   "nombre": "GP de la Ciudad de México",
+   "circuito": "Autódromo Hermanos Rodríguez",
+   "pais": "México",
+   "fecha": "2026-11-01",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "ryo_hirakawa",
+     "escuderia": "haas",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 20,
+   "nombre": "GP de Brasil",
+   "circuito": "Autódromo José Carlos Pace",
+   "pais": "Brasil",
+   "fecha": "2026-11-08",
+   "sprint": false,
+   "resultados": [
+    {
+     "piloto": "norris",
+     "escuderia": "mclaren",
+     "posicion": 1,
+     "estado": "Clasificado",
+     "puntos_oficiales": 25.0
+    },
+    {
+     "piloto": "max_verstappen",
+     "escuderia": "red_bull",
+     "posicion": 2,
+     "estado": "Clasificado",
+     "puntos_oficiales": 18.0
+    },
+    {
+     "piloto": "hadjar",
+     "escuderia": "red_bull",
+     "posicion": 3,
+     "estado": "Clasificado",
+     "puntos_oficiales": 15.0
+    },
+    {
+     "piloto": "russell",
+     "escuderia": "mercedes",
+     "posicion": 4,
+     "estado": "Clasificado",
+     "puntos_oficiales": 12.0
+    },
+    {
+     "piloto": "antonelli",
+     "escuderia": "mercedes",
+     "posicion": 5,
+     "estado": "Clasificado",
+     "puntos_oficiales": 10.0
+    },
+    {
+     "piloto": "piastri",
+     "escuderia": "mclaren",
+     "posicion": 6,
+     "estado": "Clasificado",
+     "puntos_oficiales": 8.0
+    },
+    {
+     "piloto": "lawson",
+     "escuderia": "rb",
+     "posicion": 7,
+     "estado": "Clasificado",
+     "puntos_oficiales": 6.0
+    },
+    {
+     "piloto": "leclerc",
+     "escuderia": "ferrari",
+     "posicion": 8,
+     "estado": "Clasificado",
+     "puntos_oficiales": 4.0
+    },
+    {
+     "piloto": "hamilton",
+     "escuderia": "ferrari",
+     "posicion": 9,
+     "estado": "Clasificado",
+     "puntos_oficiales": 2.0
+    },
+    {
+     "piloto": "hulkenberg",
+     "escuderia": "audi",
+     "posicion": 10,
+     "estado": "Clasificado",
+     "puntos_oficiales": 1.0
+    },
+    {
+     "piloto": "arvid_lindblad",
+     "escuderia": "rb",
+     "posicion": 11,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "alonso",
+     "escuderia": "aston_martin",
+     "posicion": 12,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "colapinto",
+     "escuderia": "alpine",
+     "posicion": 13,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "gasly",
+     "escuderia": "alpine",
+     "posicion": 14,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "albon",
+     "escuderia": "williams",
+     "posicion": 15,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bortoleto",
+     "escuderia": "audi",
+     "posicion": 16,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bearman",
+     "escuderia": "haas",
+     "posicion": 17,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "perez",
+     "escuderia": "cadillac",
+     "posicion": 18,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "sainz",
+     "escuderia": "williams",
+     "posicion": 19,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "rafael_camara",
+     "escuderia": "haas",
+     "posicion": 20,
+     "estado": "Clasificado",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "stroll",
+     "escuderia": "aston_martin",
+     "posicion": null,
+     "estado": "Abandono",
+     "puntos_oficiales": 0.0
+    },
+    {
+     "piloto": "bottas",
+     "escuderia": "cadillac",
+     "posicion": null,
+     "estado": "No salió",
+     "puntos_oficiales": 0.0
+    }
+   ],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 21,
+   "nombre": "GP de Las Vegas",
+   "circuito": "Las Vegas Strip Street Circuit",
+   "pais": "Estados Unidos",
+   "fecha": "2026-11-22",
+   "sprint": false,
+   "resultados": [],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 22,
+   "nombre": "GP de Catar",
+   "circuito": "Lusail International Circuit",
+   "pais": "Catar",
+   "fecha": "2026-11-29",
+   "sprint": false,
+   "resultados": [],
+   "sprint_resultados": []
+  },
+  {
+   "ronda": 23,
+   "nombre": "GP de Abu Dabi",
+   "circuito": "Yas Marina Circuit",
+   "pais": "Emiratos Árabes Unidos",
+   "fecha": "2026-12-06",
+   "sprint": false,
+   "resultados": [],
+   "sprint_resultados": []
+  }
+ ]
+}

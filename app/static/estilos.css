@@ -94,3 +94,6 @@ footer { color: var(--tenue); font-size: .8rem; text-align: center; padding: 24p
   h1 { font-size: 1.35rem; }
   .ocultar-movil { display: none; }
 }
+.perfiles { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 18px; }
+.perfiles a { text-decoration: none; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--borde); background: var(--tarjeta); font-size: .9rem; }
+.perfiles a.activo { background: var(--acento); color: #fff; border-color: var(--acento); }

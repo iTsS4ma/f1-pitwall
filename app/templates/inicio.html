@@ -1,62 +1,68 @@
 {% extends "base.html" %}
 {% block titulo %}Campeonato{% endblock %}
 {% block contenido %}
-<h1>Campeonato</h1>
-<p class="sub">Tabla calculada con los resultados registrados. En empate de puntos gana quien tenga más victorias (RN-007).</p>
+<h1>Campeonato 2026</h1>
+<p class="sub">
+  {% if ultima %}Resultados hasta la ronda {{ ultima.ronda }} de {{ total }} · {{ ultima.nombre }} ({{ ultima.fecha }}).{% else %}Todavía no hay resultados.{% endif %}
+  Suma carreras y sprints.
+</p>
 
-<div class="rejilla">
+<div class="rejilla" style="grid-template-columns: minmax(0, 3fr) minmax(280px, 2fr)">
   <section class="tarjeta">
     <h2>Pilotos</h2>
     <div class="tabla-scroll">
     <table>
-      <thead><tr><th>#</th><th>Piloto</th><th class="ocultar-movil">Escudería</th><th class="num">Victorias</th><th class="num">Puntos</th></tr></thead>
+      <thead><tr><th>#</th><th>Piloto</th><th class="ocultar-movil">Escudería</th><th class="num">Victorias</th><th class="num ocultar-movil">Podios</th><th class="num">Puntos</th></tr></thead>
       <tbody>
       {% for p in pilotos %}
         <tr>
           <td><span class="pos {{ 'p%d' % loop.index if p.puntos and loop.index <= 3 }}">{{ loop.index }}</span></td>
-          <td><span class="dorsal">{{ p.numero }}</span> {{ p.nombre }}</td>
+          <td><span class="dorsal">{{ p.numero }}</span> {{ p.nombre }}{% if not p.activo %} <span class="etiqueta">Reserva</span>{% endif %}</td>
           <td class="ocultar-movil">{{ p.escuderia }}</td>
           <td class="num">{{ p.victorias }}</td>
+          <td class="num ocultar-movil">{{ p.podios }}</td>
           <td class="num"><strong>{{ p.puntos }}</strong></td>
         </tr>
       {% else %}
-        <tr><td colspan="5" class="vacio">Todavía no hay pilotos.</td></tr>
+        <tr><td colspan="6" class="vacio">Todavía no hay pilotos.</td></tr>
       {% endfor %}
       </tbody>
     </table>
     </div>
+    <p class="nota">En empate de puntos va adelante quien tenga más primeros lugares en carreras; si siguen empatados, más segundos lugares, y así sucesivamente.</p>
   </section>
 
   <div>
     <section class="tarjeta">
       <h2>Constructores</h2>
       <table>
-        <thead><tr><th>#</th><th>Escudería</th><th class="num">Puntos</th></tr></thead>
+        <thead><tr><th>#</th><th>Escudería</th><th class="num">Victorias</th><th class="num">Puntos</th></tr></thead>
         <tbody>
         {% for e in constructores %}
-          <tr><td><span class="pos">{{ loop.index }}</span></td><td>{{ e.nombre }}</td><td class="num"><strong>{{ e.puntos }}</strong></td></tr>
+          <tr><td><span class="pos">{{ loop.index }}</span></td><td>{{ e.nombre }}</td><td class="num">{{ e.victorias }}</td><td class="num"><strong>{{ e.puntos }}</strong></td></tr>
         {% else %}
-          <tr><td colspan="3" class="vacio">Todavía no hay escuderías.</td></tr>
+          <tr><td colspan="4" class="vacio">Todavía no hay escuderías.</td></tr>
         {% endfor %}
         </tbody>
       </table>
     </section>
 
     <section class="tarjeta">
-      <h2>Calendario</h2>
+      <h2>Próximos eventos</h2>
       <table>
         <tbody>
-        {% for c in carreras %}
+        {% for c in proximas %}
           <tr>
             <td>R{{ c.ronda }}</td>
-            <td><a href="{{ url_for('pitwall.carrera', cid=c.id) }}">{{ c.nombre }}</a></td>
-            <td class="num">{% if c.n %}<span class="etiqueta ok">Con resultados</span>{% else %}<span class="etiqueta">Pendiente</span>{% endif %}</td>
+            <td><a href="{{ url_for('pitwall.carrera', cid=c.id) }}">{{ c.nombre }}</a>{% if c.sprint %} <span class="etiqueta">Sprint</span>{% endif %}</td>
+            <td class="num">{{ c.fecha }}</td>
           </tr>
         {% else %}
-          <tr><td class="vacio">Sin carreras.</td></tr>
+          <tr><td class="vacio">No quedan eventos pendientes.</td></tr>
         {% endfor %}
         </tbody>
       </table>
+      <p class="nota"><a href="{{ url_for('pitwall.carreras') }}">Ver el calendario completo</a></p>
     </section>
   </div>
 </div>

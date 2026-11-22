@@ -7,9 +7,15 @@
     <select id="escuderia_id" name="escuderia_id" required>
       <option value="">Elige…</option>
       {% for e in escuderias %}
-        <option value="{{ e.id }}" {{ 'selected' if campos.escuderia_id|string == e.id|string }}>{{ e.nombre }} ({{ e.n }}/2)</option>
+        <option value="{{ e.id }}" {{ 'selected' if campos.escuderia_id|string == e.id|string }}>{{ e.nombre }} ({{ e.activos }}/2 activos)</option>
       {% endfor %}
     </select>
+  </div>
+  <div>
+    <label for="activo">Situación</label>
+    <label style="display:flex;gap:8px;align-items:center;font-weight:400;color:inherit;margin:10px 0 0">
+      <input id="activo" type="checkbox" name="activo" value="1" {{ 'checked' if campos.activo|string in ('1', 'True') }}> Activo (tiene auto)
+    </label>
   </div>
   <div class="acciones" style="justify-content:flex-start">
     <button type="submit">{{ boton or 'Agregar' }}</button>
