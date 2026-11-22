@@ -1,0 +1,13 @@
+# Despliegue en Render (https://render.com) con el plan gratuito: New + > Blueprint > elegir este repositorio.
+services:
+  - type: web
+    name: f1-pitwall
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: SECRET_KEY
+        generateValue: true

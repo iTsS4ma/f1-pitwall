@@ -1,0 +1,10 @@
+[project]
+name = "f1-pitwall"
+version = "1.0.0"
+description = "Pit Wall: gestor web de una temporada de Fórmula 1 (escuderías, pilotos, carreras y campeonato)"
+requires-python = ">=3.11"
+dependencies = ["Flask>=3.0", "gunicorn>=22.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
