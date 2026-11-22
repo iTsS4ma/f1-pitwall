@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block titulo %}Escuderías{% endblock %}
+{% block contenido %}
+<h1>Escuderías</h1>
+<p class="sub">Cada escudería tiene como máximo 2 pilotos (RN-002). No se elimina una escudería con pilotos (RN-006).</p>
+
+<section class="tarjeta">
+  <h2>Nueva escudería</h2>
+  <form method="post" class="fila">
+    <div><label for="nombre">Nombre</label><input id="nombre" name="nombre" value="{{ form.nombre }}" required></div>
+    <div><label for="pais">País</label><input id="pais" name="pais" value="{{ form.pais }}" required></div>
+    <div><button type="submit">Agregar</button></div>
+  </form>
+</section>
+
+<section class="tarjeta tabla-scroll">
+  <table>
+    <thead><tr><th>Escudería</th><th>País</th><th class="num">Pilotos</th><th></th></tr></thead>
+    <tbody>
+    {% for e in escuderias %}
+      <tr>
+        <td><strong>{{ e.nombre }}</strong></td>
+        <td>{{ e.pais }}</td>
+        <td class="num">{{ e.n }} / 2</td>
+        <td>
+          <div class="acciones">
+            <a class="boton secundario chico" href="{{ url_for('pitwall.editar_escuderia', eid=e.id) }}">Editar</a>
+            <form method="post" action="{{ url_for('pitwall.eliminar_escuderia', eid=e.id) }}"><button class="peligro" type="submit">Eliminar</button></form>
+          </div>
+        </td>
+      </tr>
+    {% else %}
+      <tr><td colspan="4" class="vacio">Todavía no hay escuderías.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

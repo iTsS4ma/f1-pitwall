@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block titulo %}Editar piloto{% endblock %}
+{% block contenido %}
+<h1>Editar piloto</h1>
+<p class="sub">{{ pil.nombre }} · #{{ pil.numero }}</p>
+<section class="tarjeta">
+  {% set campos = form %}
+  {% set boton = 'Guardar' %}
+  {% set cancelar = url_for('pitwall.pilotos') %}
+  {% include "_piloto_campos.html" %}
+</section>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block titulo %}Campeonato{% endblock %}
+{% block contenido %}
+<h1>Campeonato</h1>
+<p class="sub">Tabla calculada con los resultados registrados. En empate de puntos gana quien tenga más victorias (RN-007).</p>
+
+<div class="rejilla">
+  <section class="tarjeta">
+    <h2>Pilotos</h2>
+    <div class="tabla-scroll">
+    <table>
+      <thead><tr><th>#</th><th>Piloto</th><th class="ocultar-movil">Escudería</th><th class="num">Victorias</th><th class="num">Puntos</th></tr></thead>
+      <tbody>
+      {% for p in pilotos %}
+        <tr>
+          <td><span class="pos {{ 'p%d' % loop.index if p.puntos and loop.index <= 3 }}">{{ loop.index }}</span></td>
+          <td><span class="dorsal">{{ p.numero }}</span> {{ p.nombre }}</td>
+          <td class="ocultar-movil">{{ p.escuderia }}</td>
+          <td class="num">{{ p.victorias }}</td>
+          <td class="num"><strong>{{ p.puntos }}</strong></td>
+        </tr>
+      {% else %}
+        <tr><td colspan="5" class="vacio">Todavía no hay pilotos.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </section>
+
+  <div>
+    <section class="tarjeta">
+      <h2>Constructores</h2>
+      <table>
+        <thead><tr><th>#</th><th>Escudería</th><th class="num">Puntos</th></tr></thead>
+        <tbody>
+        {% for e in constructores %}
+          <tr><td><span class="pos">{{ loop.index }}</span></td><td>{{ e.nombre }}</td><td class="num"><strong>{{ e.puntos }}</strong></td></tr>
+        {% else %}
+          <tr><td colspan="3" class="vacio">Todavía no hay escuderías.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Calendario</h2>
+      <table>
+        <tbody>
+        {% for c in carreras %}
+          <tr>
+            <td>R{{ c.ronda }}</td>
+            <td><a href="{{ url_for('pitwall.carrera', cid=c.id) }}">{{ c.nombre }}</a></td>
+            <td class="num">{% if c.n %}<span class="etiqueta ok">Con resultados</span>{% else %}<span class="etiqueta">Pendiente</span>{% endif %}</td>
+          </tr>
+        {% else %}
+          <tr><td class="vacio">Sin carreras.</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  </div>
+</div>
+{% endblock %}

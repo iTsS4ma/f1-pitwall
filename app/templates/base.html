@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titulo %}Pit Wall{% endblock %} · Pit Wall F1</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+<body>
+  <header class="barra">
+    <div class="contenido">
+      <a class="marca" href="{{ url_for('pitwall.inicio') }}">PIT<span>WALL</span> F1</a>
+      <nav>
+        {% set ep = request.endpoint or '' %}
+        <a href="{{ url_for('pitwall.inicio') }}" class="{{ 'activo' if ep == 'pitwall.inicio' }}">Campeonato</a>
+        <a href="{{ url_for('pitwall.carreras') }}" class="{{ 'activo' if 'carrera' in ep }}">Carreras</a>
+        <a href="{{ url_for('pitwall.pilotos') }}" class="{{ 'activo' if 'piloto' in ep }}">Pilotos</a>
+        <a href="{{ url_for('pitwall.escuderias') }}" class="{{ 'activo' if 'escuderia' in ep }}">Escuderías</a>
+      </nav>
+    </div>
+  </header>
+  <main class="contenido">
+    {% for categoria, mensaje in get_flashed_messages(with_categories=true) %}
+      <div class="aviso {{ categoria }}" role="alert">{{ mensaje }}</div>
+    {% endfor %}
+    {% block contenido %}{% endblock %}
+  </main>
+  <footer>Pit Wall F1 · Gestor de temporada · Proyecto escolar sin relación oficial con la Fórmula 1</footer>
+</body>
+</html>

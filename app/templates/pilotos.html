@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block titulo %}Pilotos{% endblock %}
+{% block contenido %}
+<h1>Pilotos</h1>
+<p class="sub">El número va del 1 al 99 y no se repite (RN-003). Un piloto con resultados no se elimina (RN-006).</p>
+
+<section class="tarjeta">
+  <h2>Nuevo piloto</h2>
+  {% set campos = form %}
+  {% include "_piloto_campos.html" %}
+</section>
+
+<section class="tarjeta tabla-scroll">
+  <table>
+    <thead><tr><th>N.º</th><th>Piloto</th><th class="ocultar-movil">Nacionalidad</th><th>Escudería</th><th class="num">Carreras</th><th></th></tr></thead>
+    <tbody>
+    {% for p in pilotos %}
+      <tr>
+        <td><span class="dorsal">{{ p.numero }}</span></td>
+        <td><strong>{{ p.nombre }}</strong></td>
+        <td class="ocultar-movil">{{ p.nacionalidad }}</td>
+        <td>{{ p.escuderia }}</td>
+        <td class="num">{{ p.n }}</td>
+        <td>
+          <div class="acciones">
+            <a class="boton secundario chico" href="{{ url_for('pitwall.editar_piloto', pid=p.id) }}">Editar</a>
+            <form method="post" action="{{ url_for('pitwall.eliminar_piloto', pid=p.id) }}"><button class="peligro" type="submit">Eliminar</button></form>
+          </div>
+        </td>
+      </tr>
+    {% else %}
+      <tr><td colspan="6" class="vacio">Todavía no hay pilotos.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}
